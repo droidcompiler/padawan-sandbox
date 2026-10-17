@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
+/*   By: equinto <equinto@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 11:12:12 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/07 12:46:54 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/17 12:52:15 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 #define LIBFT_H
 
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 #include <string.h>
 
 typedef struct s_list

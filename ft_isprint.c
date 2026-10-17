@@ -3,22 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
+/*   By: equinto <equinto@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 10:44:56 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/05 12:52:08 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/16 18:02:08 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <ctype.h>
 #include "libft.h"
 
 int	ft_isprint(int c)
 {
 	return (c >= 32 && c <= 126);
 }
-/*
-#include <stdio.h>
-int	main(void)
+
+int main (void)
 {
-	printf("%d", ft_isprint('!'));
-}*/
+	char test[] = {'F', 'f', '2', '@', ' '};
+
+	for(int i = 0; i < 5; i++)
+	{
+		char c = test[i];
+		printf("ft: %d - %d\n", ft_isprint(c), isprint(c));
+	}
+}
