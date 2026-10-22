@@ -6,13 +6,13 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:44:46 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/09 10:42:28 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:10:25 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-size_t	strlcpy (char *dest, const char *src, size_t size)
+size_t	ft_strlcpy (char *dest, const char *src, size_t size)
 {
 	size_t	len;
 	size_t	i;

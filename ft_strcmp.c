@@ -6,11 +6,13 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 12:40:45 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/09 15:30:27 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:08:46 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	strcmp(const char *s1, const char *s2)
+#include "libft.h"
+
+int	ft_strcmp(const char *s1, const char *s2)
 {
 	while (*s1 && *s2 && *s1 == *s2)
 	{

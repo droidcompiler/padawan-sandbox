@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: equinto <equinto@student.42.fr>            +#+  +:+       +#+        */
+/*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 14:26:29 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/21 13:13:16 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 14:05:59 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	char	*substr;
+	char	*sub;
 	size_t	s_len;
 	size_t	i;
 
@@ -32,7 +32,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	while (i < len)
 	{
 		sub[i] = s[start + i];
-		i++;	
+		i++;
 	}
 	sub[i] = '\0';
 	return (sub);

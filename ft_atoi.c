@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: equinto <equinto@student.42.fr>            +#+  +:+       +#+        */
+/*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 13:58:01 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/17 14:42:44 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 14:01:22 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
-
+/*
 int	ft_atoi(const char *str);
 
 int	main(void)
@@ -46,4 +46,4 @@ int	main(void)
 	printf("ft: %d | real: %d\n", ft_atoi("--42"), atoi("--42"));
 	printf("ft: %d | real: %d\n", ft_atoi("0"), atoi("0"));
 	return (0);
-}
+}*/

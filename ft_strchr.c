@@ -6,13 +6,13 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:41:21 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/09 16:46:30 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:08:39 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
-char	*strchr(const char *s, int c)
+char	*ft_strchr(const char *s, int c)
 {
 	while (*s)
 	{

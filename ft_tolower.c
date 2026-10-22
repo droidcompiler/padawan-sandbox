@@ -6,11 +6,13 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:48:22 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/09 12:30:45 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:12:11 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int tolower(int c)
+#include "libft.h"
+
+int	ft_tolower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		c = c + 32;

@@ -6,15 +6,15 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:03:52 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/09 10:41:54 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:07:09 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+#include "libft.h"
 
-void	*memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	unsigned char	*d;
+	unsigned char		*d;
 	const unsigned char *s;
 
 	if (!dest && !src)
@@ -38,7 +38,7 @@ void	*memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
+/*
 int main(void)
 {
 	char str1[] = "12345";
@@ -54,4 +54,4 @@ int main(void)
 	printf("prueba\n");
 	ft_memmove(str3, str3 + 2, 5);
 	printf("memmove %s\n", str3);
-}
+}*/

@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: equinto <equinto@student.42.fr>            +#+  +:+       +#+        */
+/*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 14:30:04 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/21 13:23:51 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:09:25 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
@@ -36,7 +38,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i + j] = '\0';
 	return (str);
 }
-
+/*
 int	main(void)
 {
 	char *res1 = ft_strjoin("Hola ", "Mundo");
@@ -51,4 +53,4 @@ int	main(void)
 	free(res2);
 	free(res3);
 	return (0);
-}
+}*/

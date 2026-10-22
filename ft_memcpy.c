@@ -6,15 +6,15 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 12:26:51 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/07 14:03:21 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/22 15:06:29 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	char	*destf;
+	char		*destf;
 	const char	*srcf;
 
 	destf = (char *)dest;
@@ -28,7 +28,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
+/*
 #include <stdio.h>
 #include <string.h>
 
@@ -50,5 +50,5 @@ int	main(void)
 		printf("%c", str2[i]);
 
 	printf("\n");
-}
+}*/
 
