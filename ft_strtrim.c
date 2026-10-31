@@ -6,13 +6,13 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 13:26:09 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 15:13:18 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/31 16:52:48 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;
 	size_t	end;

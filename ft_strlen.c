@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/02 14:00:56 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 15:10:51 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/24 15:12:44 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ size_t	ft_strlen(const char *s)
 	size_t	i;
 
 	i = 0;
-	while (s[i] !='\0')
+	while (s[i])
 	{
-	i++;
+		i++;
 	}
 	return (i);
 }

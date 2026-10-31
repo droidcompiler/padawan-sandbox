@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 15:18:42 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 15:07:46 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/24 15:10:51 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,4 +39,3 @@ int	main(void)
 	printf("str: %s\n", str);
 	printf("memset: %s\n", str2);
 }*/
-

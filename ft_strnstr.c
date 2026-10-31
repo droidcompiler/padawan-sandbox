@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:46:34 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 15:11:18 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/24 14:57:26 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,6 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 	s2len = ft_strlen(s2);
 	if (s2len == 0)
 		return ((char *)s1);
-
 	i = 0;
 	while (i < len && s1[i] && i + s2len <= len)
 	{

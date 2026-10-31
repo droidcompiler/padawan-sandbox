@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/07 14:03:52 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 15:07:09 by equinto          ###   ########.fr       */
+/*   Updated: 2026/10/24 15:09:46 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,10 @@
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char		*d;
-	const unsigned char *s;
+	const unsigned char	*s;
 
 	if (!dest && !src)
-		return(NULL);
+		return (NULL);
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
 	if (d > s)
@@ -28,7 +28,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	else
 	{
-		size_t i;
+		size_t	i;
 		i = 0;
 		while (i < n)
 		{
