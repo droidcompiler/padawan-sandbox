@@ -42,16 +42,16 @@ Funciones orientadas al manejo de estructuras `t_list`
 Compila utilizando `cc` y las flags `-Wall -Wextra -Werror`
 
 ### Compilar y generar libft.a
-make
+`make`
 
 ### Eliminar los archivos objeto (.o)
-make clean
+`make clean`
 
 ### Eliminar los archivos objeto (.o) y el archivo libft.a
-make fclean
+`make fclean`
 
 ### Recompilar todo de 0
-make re
+`make re`
 
 ### Recursos y uso de IA
 
