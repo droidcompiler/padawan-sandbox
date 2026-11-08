@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 16:08:15 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/24 16:27:57 by equinto          ###   ########.fr       */
+/*   Updated: 2026/11/08 17:21:54 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
-  if (!lst || !del)
-    return ;
-  del(lst->content);
-  free(lst);
+	if (!lst || !del)
+		return ;
+	del(lst->content);
+	free(lst);
 }

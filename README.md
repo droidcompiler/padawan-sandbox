@@ -1,4 +1,4 @@
-*Este proyecto ha sido creado como parte del currículo de 42 por equinto.*
+*Este proyecto ha sido creado como parte del currículo de 42 Urduliz por equinto.*
 
 # Libft
 
@@ -41,19 +41,19 @@ Funciones orientadas al manejo de estructuras `t_list`
 ### Compilación
 Compila utilizando `cc` y las flags `-Wall -Wextra -Werror`
 
-# Compilar y generar libft.a
+### Compilar y generar libft.a
 make
 
-# Eliminar los archivos objeto (.o)
+### Eliminar los archivos objeto (.o)
 make clean
 
-# Eliminar los archivos objeto (.o) y el archivo libft.a
+### Eliminar los archivos objeto (.o) y el archivo libft.a
 make fclean
 
-# Recompilar todo de 0
+### Recompilar todo de 0
 make re
 
-## Recursos y uso de IA
+### Recursos y uso de IA
 
 - Manual "man"
 - Beej's guide to c programming

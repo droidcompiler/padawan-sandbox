@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/24 16:01:53 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/24 16:02:35 by equinto          ###   ########.fr       */
+/*   Updated: 2026/11/08 16:28:37 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {
-  if (!lst || !new)
-    return ;
-  new->next = *lst;
-  *lst = new;
+	if (!lst || !new)
+		return ;
+	new->next = *lst;
+	*lst = new;
 }

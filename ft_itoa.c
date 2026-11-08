@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 13:42:40 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/31 16:58:14 by equinto          ###   ########.fr       */
+/*   Updated: 2026/11/08 19:55:12 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,11 @@ static int	ft_count_digit(long num)
 	}
 	return (len);
 }
+
 char	*ft_itoa(int n)
 {
 	char	*str;
-	int	len;
+	int		len;
 	long	num;
 
 	num = n;

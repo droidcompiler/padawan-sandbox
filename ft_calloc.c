@@ -6,7 +6,7 @@
 /*   By: equinto <equinto@student.42urduliz.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 13:57:50 by equinto           #+#    #+#             */
-/*   Updated: 2026/10/22 14:00:58 by equinto          ###   ########.fr       */
+/*   Updated: 2026/11/08 20:52:14 by equinto          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,12 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
+	if (count != 0 && size > ((size_t)-1) / count)
+		return (NULL);
 	ptr = malloc(count * size);
-	if (ptr == NULL)
-		return (ptr);
-	ft_bzero(ptr, size * count);
+	if (!ptr)
+		return (NULL);
+	ft_bzero(ptr, count * size);
 	return (ptr);
 }
 /*
