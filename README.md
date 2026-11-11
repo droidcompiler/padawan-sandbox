@@ -1,4 +1,4 @@
-*Este proyecto ha sido creado como parte del currículo de 42 Urduliz por equinto.*
+*Este proyecto ha sido creado como parte del currículo de 42 por equinto.*
 
 # Libft
 
@@ -7,6 +7,14 @@
 Libft es un proyecto que forma parte del cursus de 42 Urduliz. Va de programar desde cero nuestra propia biblioteca "libft.a" en lenguaje C.
 
 El objetivo es comprender a bajo nivel cómo se estructuran los tipos de datos, cómo interactúa el código con la memoria "Stack y Heap" para tenerlo como herramienta a proyectos futuros.
+
+## 📂 Estructura del repositorio
+
+.
+├── Makefile          # Reglas de compilación (all, clean, fclean, re, bonus)
+├── libft.h           # Archivo de cabecera con prototipos y definición de t_list
+├── ft_*.c            # Implementación de cada función
+└── obj/              # Objetos compilados (.o) generados en la compilación
 
 ## Contenido
 
@@ -52,6 +60,25 @@ Compila utilizando `cc` y las flags `-Wall -Wextra -Werror`
 
 ### Recompilar todo de 0
 `make re`
+
+## 💻 Ejemplo de uso
+
+Para utilizar `libft.a` en un programa externo:
+
+1. Incluye la cabecera en tu archivo C:
+   #include "libft.h"
+
+   int main(void)
+   {
+       char *str = ft_strdup("42 Urduliz");
+       ft_putendl_fd(str, 1);
+       free(str);
+       return (0);
+   }
+
+2. Compila enlazando la biblioteca:
+   cc -Wall -Wextra -Werror main.c -L. -lft -o programa
+   ./programa
 
 ### Recursos y uso de IA
 
